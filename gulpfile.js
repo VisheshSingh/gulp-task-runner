@@ -18,9 +18,8 @@ gulp.task('message', () => {
     return console.log('Gulp is running...');
 })
 
-gulp.task('default', () => {
-    return console.log('Default: Gulp is running...');
-})
+gulp.task('default', ['message', 'copyHTML', 'imagemin', 'minify', 'sass']
+)
 
 //COPY ALL HTML FILES
 gulp.task('copyHTML', ()=>{
