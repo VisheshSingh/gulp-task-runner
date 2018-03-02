@@ -1,5 +1,5 @@
 //This is the first comment
-console.log('this is file 1');
+console.log('this is file one');
 
 
 // this is the second comment

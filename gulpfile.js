@@ -56,3 +56,11 @@ gulp.task('scripts', ()=>{
         .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
 })
+
+//GULP WATCH
+gulp.task('watch', ()=>{
+    gulp.watch('src/js/*.js', ['scripts']);
+    gulp.watch('src/images/*.js', ['imagemin']);
+    gulp.watch('src/sass/*.js', ['sass']);
+    gulp.watch('src/*.html', ['copyHTML']);
+})

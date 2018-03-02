@@ -1,1 +1,1 @@
-console.log("this is file 1"),console.log("this is file 2"),console.log("this is coming from the file 2"),alert("hey you");
+console.log("this is file one"),console.log("this is file 2"),console.log("this is coming from the file 2"),alert("hey you");
